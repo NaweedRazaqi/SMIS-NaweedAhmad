@@ -1,0 +1,185 @@
+﻿
+@page "{handler?}/{id?}"
+
+@model Clean.UI.Pages.Student.Registeration.RegisterStudentsModel
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "StudentRegistration";
+    Layout = null;
+}
+<div class="panel panel-flat" style="direction: rtl;">
+    <div class="panel-heading">
+        <h1 class="panel-title">شمولیت شاگرد</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+
+        <form id="dv_Student_Registeration_RegisterStudents" class="form sub-form page-component" type="form" prefix="uxs" parent="dv_Student_Registeration_StudentRegistration" parentcol="ProfileID">
+            <fieldset class="content-group">
+                <legend class="text-bold">لطفاً معلومات شاگرد را وارد کنید</legend>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["ولایت"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsprovinceid" name="uxsProvinceId" class="select" asp-items="@Model.ListOfProvinces" required child="uxspdistrictid">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["ولسوالی"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxspdistrictid" name="uxsPdistrictId" class="select" asp-items="@Model.ListOfDistricts" data-type="ProvinceType">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["برنامه تعلیمی"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsschooltypeid" name="uxsSchoolTypeId" class="select" asp-items="@Model.ListOfSchoolTypes" required child="uxsschoolid">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نوعیت مکتب"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsschoolcategoryid" name="uxsSchoolCategoryId" class="select " asp-items="@Model.ListOfSchoolCategory" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نام مکتب "]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsschoolid" name="uxsSchoolId" class="select" data-type="SchoolType">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نمبر اساس"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsstudentassassnumber" name="uxsStudentAssassNumber" type="text" lang="mo" class="form-control search" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["شعبه"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclassmanagementid" name="uxsClassManagementId" class="select" asp-items="@Model.ListOfClassManagementTypes" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                      <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نوعیت راجستر"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclasstypeid" name="uxsClassTypeID" class="select" asp-items="@Model.ListOfClassTypes" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>@_localizer["ثبت معلومات"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid">
+                <table style="direction: rtl;" bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="ProfileId">کود</th>
+                            <th colname="SchoolTypeName"> برنامه تعلیمی</th>
+                            <th colname="SchoolCattext"> نوعیت مکتب</th>
+                            <th colname="ProvinceText"> ولایت</th>
+                            <th colname="DistrictText">ولسوالی</th>
+                            <th colname="SchoolName"> نام مکتب</th>
+                            <th colname="ClassTypeText">نام صنف</th>
+                            <th colname="ClassmanagementName">کتگوری صنف</th>
+                            <th colname="StudentAssassNumber">نمبر اساس </th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<script>
+
+    $("#uxsschoolcategoryid").change(function () {
+        var schoolcategory = $('#uxsschoolcategoryid').val();
+        debugger;
+            $.ajax({
+                type: 'POST',
+                url: 'RegisterStudents/SchoolCategorySearch',
+                dataType: 'json',
+                data: JSON.stringify({ SchoolCategoryId : schoolcategory }),
+                contentType: 'application/json',
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader("XSRF-TOKEN",
+                        $('input:hidden[name="__RequestVerificationToken"]').val());
+                },
+                data: JSON.stringify({ SchoolCategoryId : schoolcategory }),
+
+                success: function (data) {
+                    var list = [];
+                    list = data
+                    if (list.length > 0) {
+                        $('#uxsschoolid'  + ' option[value]').remove();
+                        for (var i = 0; i < list.length; i++) {
+                            $('#uxsschoolid' ).append("<option value='" + list[i].id + "'>" + list[i].dari + "</option>");
+                        }
+                    }
+                    else {
+                        $('#uxsschoolid'  + ' option[value]').remove();
+                    }
+                },
+                error: function (error) {
+
+                }
+            });
+        });
+</script>

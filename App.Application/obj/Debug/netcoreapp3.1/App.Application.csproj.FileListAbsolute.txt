@@ -1,0 +1,44 @@
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Application.deps.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Application.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.csprojAssemblyReference.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.AssemblyInfoInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.AssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.csproj.CoreCompileInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.csproj.CopyComplete
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Application.deps.json
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Application.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Application.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Domain.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Persistence.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Application.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\App.Domain.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\SMIS\SMIS-Project\App.Application\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.csprojAssemblyReference.cache
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.AssemblyInfoInputs.cache
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.AssemblyInfo.cs
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.csproj.CoreCompileInputs.cache
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.csproj.CopyComplete
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.dll
+D:\SMIS\SMIS-Project\App.Application\obj\Debug\netcoreapp3.1\App.Application.pdb

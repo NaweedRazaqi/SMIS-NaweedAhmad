@@ -1,0 +1,173 @@
+﻿@page "{handler?}/{id?}"
+@model Clean.UI.Pages.Student.Rellocation.RellocationSubPageModel
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "StudentRellocationSubPage";
+    Layout = null;
+}
+<div class="panel panel-flat" style="direction: rtl;">
+    <div class="panel-heading">
+        <h1 class="panel-title"> صفحه ثبت سه پارچه متعلم</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+
+        <form id="dv_Student_Rellocation_RellocationSubPage" class="form sub-form page-component" type="form" prefix="uxs" parent="dv_Student_Rellocation_Rellocation" parentcol="ProfileID">
+            <fieldset class="content-group">
+                <legend class="text-bold">مشخصات سه پارچه را وارد نماییدد</legend>
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["کتگوری"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsschooltypeid" name="uxsSchoolTypeId" class="select search" asp-items="@Model.ListOfSchoolTypes" required child="uxsoldschoolid" >
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["مكتب قبلي متعلم"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsoldschoolid" name="uxsOldSchoolId" class="select search" data-type="SchoolType" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["مکتب فعلمی متعلم"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsnewschoolid" name="uxsNewSchoolId" class="select search"  required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نمبر اساس قبلي"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsoldassasnumber" name="uxsOldAssasNumber" type="text" class="form-control search" lang="mo" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نمبر اساس فعلي"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsnewassasnumber" name="uxsnewassasnumber" type="text" class="form-control search" lang="mo" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["موقیت مکتب جدید (ولایت)"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsschoollocationid" name="uxsSchoolLocationId" child="uxsdistrict" class="select" asp-items="@Model.ListOfLocations" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["موقیت مکتب جدید(ولسوالی)"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsdistrict" name="uxsDistrict" data-type="Province" class="select" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>@_localizer["ثبت معلومات"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid">
+                <table style="direction: rtl;" bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Id">شماره </th>
+                            <th colname="ProfileName">نام متعلم</th>
+                            <th colname="NewSchoolNameText">مكتب جدید</th>
+                            <th colname="OldSchoolNameText">مکتب قبلی</th>
+                            <th colname="SchoolLocationNameText">آدرس مکتب جدید</th>
+                            <th colname="DistrictName">ولسوالی</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+<script>
+
+    $("#uxsschooltypeid").change(function () {
+        var SchoolType = $('#uxsschooltypeid').val();
+            $.ajax({
+                type: 'POST',
+                url: 'RellocationSubPage/SchoolSearch',
+                dataType: 'json',
+                data: JSON.stringify({ SchoolTypeID: SchoolType }),
+                contentType: 'application/json',
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader("XSRF-TOKEN",
+                        $('input:hidden[name="__RequestVerificationToken"]').val());
+                },
+                data: JSON.stringify({ SchoolTypeID: SchoolType }),
+               
+                success: function (data) {
+                    var list = [];
+                    list = data
+                    if (list.length > 0) {
+                        $('#uxsnewschoolid'  + ' option[value]').remove();
+                        for (var i = 0; i < list.length; i++) {
+                            $('#uxsnewschoolid' ).append("<option value='" + list[i].id + "'>" + list[i].dari + "</option>");
+                        }
+                    }
+                    else {
+                        $('#uxsnewschoolid'  + ' option[value]').remove();
+                    }
+                },
+                error: function (error) {
+
+                }
+            });
+        });
+</script>

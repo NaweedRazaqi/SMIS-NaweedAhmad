@@ -1,0 +1,159 @@
+﻿
+@page "{handler?}/{id?}"
+@model Clean.UI.Pages.Student.Profile.StudentParentDetails
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "StudentParentsJob";
+    Layout = null;
+}
+
+<div class="panel panel-flat" style="direction: rtl;">
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer["مشخصات اقارب"]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+
+        <form id="dv_Student_Profile_StudentParentDetails" class="form sub-form page-component" type="form" prefix="uxs" parent="dv_Student_Profile_Profile" parentcol="ProfileID">
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["لطفا مشخصات اقارب  شاگرد را در اینجا وارد نمایید"]</legend>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نوعیت قرابت"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsrelativetypeid" name="uxsRelativeTypeId" class="select" asp-items="@Model.ListOfRelatives" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نام قريب"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsrelativename" name="uxsRelativeName" type="text" class="form-control" />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["شماره تماس"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsphone" name="uxsPhone" type="text" class="form-control" />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["عنوان وظیفه"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsprofessiontypeid" name="uxsProfessionTypeId" class="select" asp-items="@Model.ListOfProfession" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["محل وظیفه"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsjoblocationid" name="uxsJobLocationId" class="select" asp-items="@Model.ListOfLocations" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row" id="usxguaranteername" style="display:none;">
+
+                        <div class="col-md-4 col-sm-12 col-xs-12 ">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    @_localizer["نام تضمین کننده"]
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <input id="uxsgurrentername" name="uxsGurrenterName" type="text" class="form-control" lang="ps" />
+                                <div class="form-control-feedback">
+                                    <i class="icon-search4 text-size-base"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12 col-xs-12 ">
+                            <div class="form-group has-feedback has-feedback-left">
+                                <label class="text-bold">
+                                    @_localizer["نام پدر تضمین کننده"]
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <input id="uxsgurrenterfathername" name="uxsGurrenterFatherName" type="text" class="form-control" />
+                                <div class="form-control-feedback">
+                                    <i class="icon-search4 text-size-base"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+               
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>@_localizer["ثبت معلومات"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid">
+                <table style="direction: rtl;" bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Id">@_localizer["شماره"]</th>
+                            <th colname="RelativeName">@_localizer["نام قریب "]</th>
+                            <th colname="ProfesionName">@_localizer["عنوان وظیفه"]</th>
+                            <th colname="JobLocationName">@_localizer["محل وظیفه"]</th>
+                            <th colname="GurrenterName">@_localizer["نام تضمین کننده متعلم"]</th>
+                            <th colname="GurrenterFatherName">@_localizer["نام پدر تضمین کننده متعلم"]</th>
+                            <th colname="Phone">@_localizer["شماره تماس"]</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+
+    </div>
+</div>
+    <script>
+        $('#uxsrelativetypeid').change(function () {
+            debugger;
+            if ($(this).val() == "8") {
+                     $('#usxguaranteername').show();
+            }
+            else
+                 {
+                $('#usxguaranteername').hide();
+                 }
+        });
+          
+    </script>

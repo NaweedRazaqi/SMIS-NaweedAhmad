@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Student\ResultSheet\Commands\**" />
+    <EmbeddedResource Remove="Student\ResultSheet\Commands\**" />
+    <None Remove="Student\ResultSheet\Commands\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="8.6.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="PDFsharp" Version="1.50.5147" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Persistence\App.Persistence.csproj" />
+    <ProjectReference Include="..\Clean.Application\Clean.Application.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Student\Examination\Result\Commands\" />
+  </ItemGroup>
+
+</Project>

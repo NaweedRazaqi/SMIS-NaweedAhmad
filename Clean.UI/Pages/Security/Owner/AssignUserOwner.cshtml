@@ -1,0 +1,87 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Security.Owner.AssignUserOwnerModel
+@{
+    Layout = "~/Pages/Shared/_MasterLayout.cshtml";
+}
+@Html.AntiForgeryToken()
+
+<div class="panel panel-flat">
+    <div class="panel-heading">
+        <h1 class="panel-title">تنظیمات کاربری</h1>
+    </div>
+    <div class="panel-body">
+
+        <form id="dv_Security_Owner_AssignUserOwner" class="form main-form page-component" type="form" prefix="ux">
+            <fieldset class="content-group">
+
+                <legend>تعین موقف به کاربران.</legend>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                نام کاربر
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxuserid" name="uxUserId" class="select search" asp-items="@Model.ListOfUsers" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                نام موقف
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxownerid" name="uxOwnerId" class="select search" asp-items="@Model.ListOfOwners">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">فعال | ‌غیر فعال</label>
+                            <input type="checkbox" class="checkbox" id="uxisactive" name="uxIsActive" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+
+                        <button type="button" action="save" class="btn btn-primary"><i class="icon-floppy-disk position-left"></i>ثبت </button>
+                        <button type="button" action="new" class="btn btn-primary"><i class="icon-new-tab position-left"></i>جدید</button>
+                        <button type="button" action="search" class="btn btn-primary"><i class="icon-search4 position-left"></i>جستجو </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="UserText">نام کاربر</th>
+                            <th colname="OwnerText">نام موقف تعین شده</th>
+                            <th colname="IsActiveText">حالت</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="page-sidebar page-component" type="actionmenu">
+        <ul class="navigation navigation-alt navigation-accordion">
+
+            @Html.Raw(@Model.SubScreens)
+        </ul>
+    </div>
+</div>

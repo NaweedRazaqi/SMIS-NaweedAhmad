@@ -1,0 +1,183 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Student.Certificate.StudentSchoolCertificateModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "School Certificate";
+}
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Student_Certificate_StudentSchoolCertificate" class="form main-form page-component" type="form" prefix="ux">
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["مشخصات شخص را جستجو کنید"] </legend>
+                <input type="hidden" id="uxbid" />
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["کود"]
+                                    </label>
+                                    <input id="uxcode" name="uxCode" type="text" class="form-control search" />
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["کتگوری"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxschooltypeid" name="uxSchoolTypeId" class="select search" asp-items="@Model.ListOfSchoolTypes">
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["نام اداری تعلیمی "]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxschoolid" name="uxSchoolId" class="select search" asp-items="@Model.ListOfSchools" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["نوعیت راجستر"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxclasstypeid" name="uxClassTypeId" class="select search" asp-items="@Model.ListOfClassTypes" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["نام"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxfirstname" name="uxFirstName" type="text" class="form-control search" lang="ps" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["تخلص"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxlastname" name="uxlastname" type="text" class="form-control" lang="ps" required />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["نام پدر"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxfathername" name="uxFatherName" type="text" class="form-control search" lang="ps" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["نمبر اساس"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxstudentassassnumber" name="uxStudentAssassNumber" type="text" lang="mo" class="form-control search" required />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["نام انگلیسی"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxfirstnameeng" name="uxFirstNameEng" type="text" class="form-control search" lang="en" />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["تخلص انگلیسی"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxlastnameeng" name="uxLastNameEng" type="text" class="form-control" lang="en" />
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["نام پدر انگلیسی"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxfathernameeng" name="uxFatherNameEng" type="text" class="form-control " lang="en" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 pull-right">
+                        <div id="uxPhoto" class="img-uploader" data-type="photo" data-ref="uxphotopath">
+                        </div>
+                        <input type="hidden" class="output" id="uxphotopath" />
+                    </div>
+
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                        <button type="button" class="btn btn-primary pull-right" id="_print" action="print"><i class="icon-new-tab position-right"></i>@_localizer["پرنت شهادت نامه "]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Code">@_localizer["کود"]</th>
+                            <th colname="FirstName">@_localizer["نام"]</th>
+                            <th colname="LastName">@_localizer["تخلص"]</th>
+                            <th colname="FatherName">@_localizer["نام پدر"]</th>
+                            <th colname="StudentSchoolName">@_localizer["نام مکتب"]</th>
+                            <th colname="StudentClassName">@_localizer["صنف مربوصه"]</th>
+                            <th colname="StudentSchoolType">@_localizer["صنف مربوصه"]</th>
+                            <th colname="StudentAssassNumber">@_localizer["نمبر اساس متعلم"]</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>

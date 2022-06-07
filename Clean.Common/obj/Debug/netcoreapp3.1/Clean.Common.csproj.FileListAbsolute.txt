@@ -1,0 +1,18 @@
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\bin\Debug\netcoreapp3.1\Clean.Common.deps.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.csprojAssemblyReference.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.AssemblyInfoInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.AssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.csproj.CoreCompileInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\SMIS\SMIS-Project\Clean.Common\bin\Debug\netcoreapp3.1\Clean.Common.deps.json
+D:\SMIS\SMIS-Project\Clean.Common\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\SMIS\SMIS-Project\Clean.Common\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.csprojAssemblyReference.cache
+D:\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.AssemblyInfoInputs.cache
+D:\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.AssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.csproj.CoreCompileInputs.cache
+D:\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.dll
+D:\SMIS\SMIS-Project\Clean.Common\obj\Debug\netcoreapp3.1\Clean.Common.pdb

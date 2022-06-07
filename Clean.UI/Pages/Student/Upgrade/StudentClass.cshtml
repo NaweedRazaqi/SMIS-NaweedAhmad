@@ -1,0 +1,161 @@
+﻿@page "{handler?}"
+
+@model Clean.UI.Pages.Student.Result.StudentClassModel
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "StudentClass";
+
+}
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer["بخش نمرات شاگردان"]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+
+        <form id="dv_Student_Result_StudentClass" class="form main-form page-component" type="form" prefix="uxs">
+            <fieldset class="content-group">
+                <legend class="text-bold">لطفاً نمرات شاگرد را وارد کنید</legend>
+                <input type="hidden" id="uxsbid" />
+
+                <div class="row">
+                    <div class="col-md-2 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["کود"]
+                            </label>
+                            <input id="uxsstudentcode" name="uxsStudentCode" type="text" class="form-control search" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نام"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsstudentfirstname" name="uxsStudentFirstName" type="text" class="form-control search" lang="ps" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نام پدر"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsstudentfathername" name="uxsstudentfathername" type="text" class="form-control search" lang="ps" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نام انگلیسی "]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsstudentfirstnameeng" name="uxsstudentfirstnameeng" type="text" class="form-control search" lang="ps" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-2 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نام پدر انگلیسی"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsstudentfathernameeng" name="uxsstudentfathernameeng" type="text" class="form-control search" lang="ps" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نام مکتب"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsstudentschoolid" name="uxsstudentschoolid" class="select" asp-items="@Model.ListOfSchools" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-2 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نوعیت راجستر"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclasstypeid" name="uxsClassTypeID" class="select" asp-items="@Model.ListOfClassTypes" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["کتگوری"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclassmanagementid" name="uxsClassManagementId" class="select" asp-items="@Model.ListOfClassManagementTypes" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-new-tab position-right"></i>جستجو</button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-right"></i>صفحه جدید </button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid">
+                <table style="direction: rtl;" bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="StudentCode">کود</th>
+                            <th colname="StudentFirstName">نام</th>
+                            <th colname="StudentFatherName">نام پدر</th>
+                            <th colname="StudentFirstNameEng">نام انگلیسی</th>
+                            <th colname="StudentFatherNameEng">نام پدر انگلیسی</th>
+                            <th colname="StudentSchoolName">نام مکتب</th>
+                            <th colname="ClassTypeName">صنف شاگرد</th>
+                            <th colname="ClassManagementName">گتکوری</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div class="page-sidebar page-component" type="actionmenu">
+    <ul class="navigation navigation-accordion">
+        @Html.Raw(@Model.SubScreens)
+    </ul>
+</div>

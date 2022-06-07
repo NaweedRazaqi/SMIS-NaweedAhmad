@@ -1,0 +1,42 @@
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.deps.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.runtimeconfig.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.runtimeconfig.dev.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.csprojAssemblyReference.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.AssemblyInfoInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.AssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.csproj.CopyComplete
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.genruntimeconfig.cache
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.deps.json
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.runtimeconfig.json
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.runtimeconfig.dev.json
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.dll
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Domain.dll
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\App.Domain.pdb
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+D:\SMIS\SMIS-Project\App.Persistence\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.csprojAssemblyReference.cache
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.AssemblyInfoInputs.cache
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.AssemblyInfo.cs
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.csproj.CoreCompileInputs.cache
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.csproj.CopyComplete
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.dll
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\SMIS\SMIS-Project\App.Persistence\obj\Debug\netcoreapp3.1\App.Persistence.genruntimeconfig.cache

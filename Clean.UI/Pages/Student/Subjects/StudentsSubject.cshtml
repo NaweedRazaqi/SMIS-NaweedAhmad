@@ -1,0 +1,133 @@
+﻿@page "{handler?}"
+
+@model Clean.UI.Pages.Student.Subjects.StudentSubjectModel
+
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "Students Scores";
+
+}
+<style>
+    #TotalBox {
+        position: relative;
+        top: -6px;
+    }
+    #AverageBox {
+        position: relative;
+        top: -6px;
+    }
+    #Resultbox {
+        position: relative;
+        top: -5px;
+    }
+</style>
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer["بخش نمرات شاگردان"]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+
+        <form  class="form main-form page-component"  prefix="uxs">
+            <fieldset class="content-group">
+                <legend class="text-bold">   بخش ثبت مضامین شاگردان</legend>
+                <input type="hidden" id="uxsbid" />
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نام مکتب"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsstudentschoolid" name="uxsStudentSchoolID" class="select search " asp-items="@Model.ListOfSchools" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["صنف مربوطه"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclasstypeid" name="uxsClassTypeID" class="select search" asp-items="@Model.ListOfClassTypes">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["کتگوری صنف"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclassmanagementid" name="uxsClassManagementID" class="select search" asp-items="@Model.ListOfClassManagementTypes">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نوع امتحان"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsexamtypeid" name="uxsExamTypeID" class="select search" asp-items="@Model.listOfExamType">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary" id="uxsSearch"><i class="icon-new-tab position-right"></i>جستجو</button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-right"></i>صفحه جدید </button>
+                    </div>
+                </div>
+            </div>
+            </form>
+            </div>
+        </div>
+
+<div class="card">
+    <div class="card-body">
+        <fieldset>
+            <div class="table-responsive" style="overflow-y:scroll!important; max-height:300px!important;">
+
+                <table class="table  table-bordered table-striped table-hover" id="ApportionmentData">
+                    <thead>
+                        <tr>
+                            <th colname="FirstName">نام</th>
+                            <th colname="FatherName">نام پدر</th>
+                            <th colname="SchoolName">نام مکتب</th>
+                            <th>صنف</th>
+                            <th>گروپ</th>
+                            <th></th>
+                            <th> مجموع نمرات</th>
+                            <th> اوسط نمرات</th>
+                            <th> نتیجه</th>
+                        </tr>
+                    </thead>
+                    <tbody id="uxsStudentSubject">
+                    </tbody>
+                </table>
+            </div>
+        </fieldset>
+        </div>
+    </div>
+        <br />
+        <div class="text-right">
+            <button id="uxsSave" class="btn btn-primary">ثبت<i class="icon-paperplane ml-2"></i></button>
+        </div>
+      
+
+

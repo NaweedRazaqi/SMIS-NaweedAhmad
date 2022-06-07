@@ -1,0 +1,306 @@
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.exe
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.deps.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.runtimeconfig.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.runtimeconfig.dev.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Application.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.csprojAssemblyReference.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.AssemblyInfoInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.AssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.csproj.CoreCompileInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.RazorTargetAssemblyInfo.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.csproj.CopyComplete
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\staticwebassets\Clean.API.StaticWebAssets.Manifest.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\staticwebassets\Clean.API.StaticWebAssets.xml
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.genruntimeconfig.cache
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.exe
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.deps.json
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.runtimeconfig.json
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.runtimeconfig.dev.json
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.API.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\PdfSharp.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Application.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Domain.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Persistence.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Application.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Application.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\App.Domain.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\SMIS\SMIS-Project\Clean.API\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.csprojAssemblyReference.cache
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.AssemblyInfoInputs.cache
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.AssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.csproj.CoreCompileInputs.cache
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.MvcApplicationPartsAssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.MvcApplicationPartsAssemblyInfo.cache
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\staticwebassets\Clean.API.StaticWebAssets.Manifest.cache
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\staticwebassets\Clean.API.StaticWebAssets.xml
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Clean.API.styles.css
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.RazorTargetAssemblyInfo.cache
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.csproj.CopyComplete
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.dll
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.pdb
+D:\SMIS\SMIS-Project\Clean.API\obj\Debug\netcoreapp3.1\Clean.API.genruntimeconfig.cache

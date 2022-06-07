@@ -1,0 +1,889 @@
+﻿
+
+@page
+@model Clean.UI.Pages.Student.Profile.Sawaneh.Prints.IndexModel
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ResultSheet</title>
+    <link href="~/assets/css/print.css" rel="stylesheet" />
+    <link href="~/assets/css/page.css" rel="stylesheet" />
+    <style>
+        .signholder {
+            border: 2px solid #808080;
+            margin-top: 100px;
+            height: 0px;
+            width: 300px;
+            margin: 0px 0px;
+            margin-top: -10px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+
+        @@media print {
+            body {
+                margin: 0 auto;
+                padding: 0;
+                background: #fff;
+            }
+
+            .rtl .div-form {
+                float: none !important;
+                right: auto !important;
+                left: auto !important;
+                position: relative;
+                top: auto !important;
+                width: 100%;
+                margin: 0;
+                box-shadow: none !important;
+            }
+
+            h2 {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color: #000;
+            }
+
+            h3 {
+                font-size: 18px;
+                font-weight: bold;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color: #000;
+            }
+
+            hr {
+                display: none;
+            }
+
+            .table {
+                border-spacing: 0;
+                border-collapse: collapse;
+                width: 99%;
+                margin-top: 10px;
+                top: -21px;
+            }
+
+
+            #sawanehtitle {
+                position: relative;
+                text-align: center;
+                right: 0;
+                left: 3rem;
+                font-weight: bold;
+            }
+
+            #Sawanehfirsttitle {
+                position: relative;
+                top: 17px;
+                line-height: 28px;
+            }
+
+
+            #innerdetails tr td:first-child + td {
+                position: absolute;
+                left: 22rem;
+                display: inline-table;
+                width: 107% !important;
+            }
+            #userimg {
+                position: relative;
+                width: 100px !important;
+                height: 127px;
+                left: 8rem;
+                top: 29px;
+            }
+            td, th {
+                font-size: 12.5px !important;
+                padding: 5px;
+            }
+            #schoolrecords {
+                position: relative;
+                top: 1rem;
+            }
+
+            #innerdetails {
+                position: relative;
+                top: 15rem;
+            }
+
+            #Sawanehfirsttitle1 {
+                position: relative;
+                top: 34px;
+                line-height: 26px;
+            }
+
+
+            
+            #maintablerow {
+                position: absolute;
+                top: 0;
+                border: 2px solid black;
+                margin: 9px;
+                height: 54rem;
+            }
+            #sawanehtitle {
+                position: relative;
+                text-align: center;
+                right: 0;
+                left: 3rem;
+                font-weight: bold;
+            }
+            #no_imagepath {
+                width: 100%;
+                height: 124px;
+                position: relative;
+                top: 110px;
+                z-index: 1;
+                left: 4px;
+            }
+            #\31 2thyearmarks {
+                width: 96%;
+                margin-left: 16px;
+                top: 25px !important;
+            }
+            #Sawanehfirsttitle {
+                position: relative;
+                top: 72px !important;
+                line-height: 28px;
+            }
+           
+        }
+
+         /* print css*/
+
+
+
+        .div-row, .div-row label {
+            font-size: 16px;
+        }
+
+            .div-row label {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+        .form-title {
+            border-width: 2px;
+            font-size: 11px;
+            padding-bottom: 15px;
+            color: #222;
+            border-bottom: 3px solid #222;
+            margin-right: 10px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        .col-50 {
+            width: 49% !important;
+            float: right;
+        }
+
+        .border-right {
+            border-right: 1px solid #eee;
+        }
+
+        margin-right-2 {
+            margin-right: 2px;
+        }
+
+        .div-row .eng {
+            width: 49% !important;
+            min-width: 0px;
+            font-size: 14px !important;
+            font-family: sans-serif;
+            float: left !important;
+            direction: ltr;
+        }
+
+        .eng label, .eng label {
+            float: left !important;
+            direction: ltr;
+            width: auto !important;
+        }
+
+        .div-photo {
+            margin-top: 10px;
+        }
+
+        .div-photo {
+            background: #fff;
+            box-shadow: none;
+        }
+
+        .div-mainform .title {
+            border-bottom: none !important;
+        }
+
+            .div-mainform .title .div-logo img {
+                height: 130px;
+                width: auto;
+            }
+
+            .div-mainform .title .div-logo {
+                left: 45px;
+                position: absolute;
+            }
+
+        .pull-right {
+            float: right;
+        }
+
+        .div-mainform .title .div-bottom .div-truck div span {
+            font-size: 12px;
+        }
+
+        h1 {
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #000;
+            align-content: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        .div-logo-right {
+            position: absolute;
+            right: 45px;
+        }
+
+        .div-logo {
+            top: 20px;
+        }
+
+        .div-logo-right {
+            position: absolute;
+            left: 45px;
+        }
+
+        .title {
+            height: 150px !important;
+            position: relative;
+        }
+
+            .title .div-text {
+                width: 50%;
+                position: relative;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+            position: relative;
+            top: -21px;
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border-top: 1px solid #222
+        }
+
+        .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+            vertical-align: middle;
+        }
+
+        .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+            border: 1px solid #ddd;
+            border-top-color: rgb(221, 221, 221);
+            border-top-style: solid;
+            border-top-width: 1px;
+        }
+
+        td, th {
+            font-size: 12px !important;
+            padding: 5px;
+        }
+
+        body {
+            background: #737373;
+        }
+
+        .table > tbody {
+        }
+
+
+        .div-form {
+            background: #fff none repeat scroll 0 0;
+            border: 0 solid #aaa;
+            border-radius: 1px;
+            box-shadow: 0 0 2px #555;
+            display: block;
+            max-width: 761px;
+            min-width: 210mm;
+            position: relative;
+            width: 291mm;
+            height: 68rem;
+            min-height: 42rem;
+        }
+
+        #UserPhoto img {
+            width: 135px;
+            height: 153px;
+            position: absolute;
+            float: left;
+            left: -66rem;
+            top: 0;
+        }
+     
+        #sawanehtitle {
+            position: relative;
+            text-align: center;
+            right: 0;
+            left: 3rem;
+            font-weight: bold;
+        }
+        #Sawanehfirsttitle {
+            position: relative;
+            top: 17px;
+            line-height: 28px;
+        }
+        #userimg {
+            position: relative;
+            width: 100px !important;
+            height: 127px;
+            left: 21px;
+            top: 29px;
+        }
+        #innerdetails tr td:first-child + td {
+            position: relative;
+            left: 28rem;
+        }
+        #innerdetails tr td span {
+            font-weight: bold;
+            font-size: 1em;
+        }
+        #maintablerow {
+            position: relative;
+            top: 0;
+            border: 2px solid black;
+            margin: 9px;
+            height: 54rem;
+        }
+        #register {
+            width: 98%;
+            margin: 8px;
+            top: 2rem;
+        }
+        #registerfirsth {
+            width: 52%;
+        }
+        #relativ {
+            text-align: center;
+        }
+        #relativ td:first-child {
+          width: 6%;
+         }
+       #relativ td:first-child + td {
+        width: 22%;
+            }
+       #relativ td:first-child + td + td {
+          width: 4%;
+              }
+        #relativ td:first-child + td + td + td + td + td + td {
+         width: 28%;
+                }
+       #relativ td:first-child + td + td + td + td + td {
+        width: 6%;
+                }
+       #relativ td:first-child + td + td + td + td {
+          width: 5%;
+                }
+        #form\ certbackMarks {
+            position: relative;
+            left: 26.5rem;
+        }
+        #\31 2thyearmarks {
+            width: 96%;
+            margin-left: 16px;
+            top: -30px;
+        }
+        #dynamicsubject td {
+            font-size: 9px !important;
+        }
+        #Sawanehfirsttitle1 {
+            position: relative;
+            top: 34px;
+            line-height: 26px;
+        }
+        #no_imagepath {
+            width: 100%;
+            height: 124px;
+            position: relative;
+            top: 110px;
+            z-index: 1;
+            left: 4px;
+        }
+
+    </style>
+    <script src="~/assets/js/core/libraries/jquery.min.js"></script>
+    <script src="~/assets/js/plugins/barcode/JsBarcode.all.js"></script>
+</head>
+<body style="direction:ltr;">
+    <div id="form" class="div-mainform div-form" style="margin-right:auto; margin-left:auto;">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="row" id="sawanehlabels">
+                    <table dir="rtl" id="sawanehtitletb">
+                        <tr>
+                            <th align="center" valign="top" id="Sawanehfirsttitle1">
+                                <h2>وزارت معارف</h2><br />
+                                <h2> ریاست تعلیم و تربیه</h2>
+                                <h2>  مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) </h2>
+                            </th>
+
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+            <div class="row" id="maintablerow" >
+                <table id="maintable" dir="rtl">
+                    <thead id="header">
+                        <tr>
+                            <td id="sawanehtitle">
+                                <h3>کارت سوانح متعلیمن مکاتب</h3>
+                            </td>
+                            <td id="userimg">
+                                <div id="apPhoto">
+                                    @*<img src="" class="croppedImg" width="123" id="no_imagepath">*@
+                                    @*<img src="~/assets/img/naweed.jpg"  />*@
+                                    <img src="@Model.PhotoPath"  id="no_imagepath">
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    </thead>
+                    <thead id="innerdetails">
+                        <tr>
+
+                            <td> <span>اسم متعلم</span> <span> : </span> <span>@Model.FirstName</span></td>
+                            <td><span> نام پدر متعلم</span> <span> : </span><span>@Model.FatherName</span></td>
+                        </tr>
+
+                        <tr>
+                            <td> <span>سال تولد</span> <span> : </span><span>@Model.DobShamsi</span></td>
+                            <td><span>وظیفه پدر متعلم</span><span> : </span><span>@Model.FatherProfession</span></td>
+                        </tr>
+
+                        <tr>
+                            <td> <span>محل بودوباش دایمی</span> <span> : </span><span>@Model.PermenentLocation</span></td>
+                            <td><span>محل بودوباش پدر متعلم</span><span> : </span><span>@Model.PermenentLocation</span></td>
+                        </tr>
+                        <tr>
+                            <td> <span>زبان مادری</span><span> : </span><span>@Model.MotherLanguage</span></td>
+                            <td><span>زبان پدری</span><span> : </span><span>@Model.MotherLanguage</span></td>
+                        </tr>
+                        <tr>
+                            <td> <span>نمبر تذکره</span></td>
+
+                        </tr>
+                        <tr>
+                            <td><span>ولی متعلم</span></td>
+                        </tr>
+                    </thead>
+
+                </table>
+
+                <div class="col-md-6" id="register">
+                    <table class="table-bordered" dir="rtl" id="schoolrecords">
+                        <thead>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th colspan="4" id="registerfirsth">
+                                    <h4> شامل شدن و منفک شدن </h4>
+                                </th>
+                                <th colspan="4">
+                                    <h4>اقارب نزدیک</h4>
+                                </th>
+                            </tr>
+                            <tr id="relativ">
+
+                                <td></td>
+                                <td>شامل شدن</td>
+                                <td></td>
+                                <td>منفک شدن</td>
+                                <td></td>
+                                <td>برادر</td>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr id="relativ">
+
+                                <td>تاریخ</td>
+                                <td></td>
+                                <td>تاریخ</td>
+                                <td> @Model.termdateShamsi</td>
+                                <td></td>
+                                <td>برادر</td>
+                                <td colspan="3"> </td>
+                            </tr>
+                            <tr id="relativ">
+
+                                <td>نمبر مکتوب</td>
+                                <td></td>
+                                <td>تمبر مکتوب</td>
+                                <td>@Model.TdocumentNo</td>
+                                <td></td>
+                                <td>ماما</td>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr id="relativ">
+
+                                <td>صنف</td>
+                                <td>@Model.Classtype</td>
+                                <td>صنف</td>
+                                <td>@Model.TerminatedClassText</td>
+                                <td></td>
+                                <td>پسر کاکا</td>
+                                <td colspan="3" ></td>
+                            </tr>
+                            <tr id="relativ">
+
+                                <td></td>
+                                <td></td>
+                                <td>علت</td>
+                                <td> @Model.Reasons</td>
+                                <td></td>
+                                <td>پسر ماما</td>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr id="relativ">
+
+                                <td></td>
+                                <td></td>
+                                <td>جریمه</td>
+                                <td>@Model.Fine</td>
+                                <td></td>
+                                <td></td>
+                                <td colspan="3"></td>
+                            </tr>
+                        </thead>
+                    </table>
+
+                </div>
+            </div>
+
+     
+
+
+
+
+        </div>
+    </div>
+
+    <div id="form certbackMarks" class="div-mainform div-form">
+        @*<input type="hidden" value="@Model.Code" id="code_print" />*@
+        <div class="container">
+
+            <div class="row">
+
+                <div class="row" id="sawanehmarklabl">
+                    <table dir="rtl">
+                        <tr>
+                            <th align="center" valign="top" id="Sawanehfirsttitle">
+                                <h3>وزارت معارف</h3>
+                                <h3> ریاست تعلیم و تربیه</h3>
+                                <h3>نتیجه امتحان متعلم</h3>
+                            </th>
+
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                </tr>
+
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="row">
+            <table class="table-bordered" dir="rtl" id="12thyearmarks">
+                <thead>
+                    <tr id="schools">
+                        <th>اسم مکتب در سالها</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <th>مکتب (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</th>
+                        <td>ملاحضه</td>
+                       
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <tr style="text-align:center">
+                        <td>صنف ها</td>
+                        <td> اول</td>
+                        <td> دوم</td>
+                        <td> سوم</td>
+                        <td> چهاروم</td>
+                        <td> پیجم</td>
+                        <td> ششم</td>
+                        <td> هفتم</td>
+                        <td> هشتم</td>
+                        <td> نهم</td>
+                        <td> دهم</td>
+                        <td> یازدهم</td>
+                        <td> دوازدهم</td>
+                        <td></td>
+                    </tr>
+
+                    @foreach (var subject in Model.SubjectResults)
+                    {
+                        <tr style="text-align:center" id="dynamicsubject">
+                            <td>
+                                @subject.Subject
+                            </td><td>
+                                @subject.FirstClass
+                            </td><td>
+                                @subject.SecondClass
+                            </td><td>
+                                @subject.ThirdClass
+                            </td><td>
+                                @subject.FurtClass
+                            </td><td>
+                                @subject.FivClass
+                            </td><td>
+                                @subject.SixClass
+                            </td><td>
+                                @subject.SevClass
+                            </td><td>
+                                @subject.EiClass
+                            </td><td>
+                                @subject.NiClass
+                            </td><td>
+                                @subject.TenClass
+                            </td><td>
+                                @subject.EleClass
+                            </td><td>
+                                @subject.TowClass
+                            </td>
+                            <td></td>
+                        </tr>
+                            
+                    }
+
+                    <tr>
+                        <td>
+                            درحه صنفی
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            روز تعلیمی
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            حاضر
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            غیر حاضر
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            مریض
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            رخصت
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            امضا نگران
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            امضا آمر باصلاحیت
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr style="text-align:center">
+                        <td colspan="8">
+                          توضیحات خصوصی در مورد متعلم  
+                        </td>
+                        <td colspan="6">نظریات هیت اداری مکاتب</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var Code = $('#code_print').val();
+            var MOE = "MOE-SMIS";
+            JsBarcode("#barcode1", `${MOE}${Code}`);
+        });
+
+    </script>
+</body>
+</html>

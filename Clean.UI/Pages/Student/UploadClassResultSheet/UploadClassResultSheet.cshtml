@@ -1,0 +1,98 @@
+﻿@page "{handler?}"
+@model Clean.UI.Pages.Student.UploadClassResultSheet.ClassResultSheetModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "StudentClassResultSheet";
+
+}
+
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer["بخش نمرات شاگردان"]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Student_UploadClassResultSheet_UploadClassResultSheet" class="form main-form page-component" type="form" prefix="ux" attachment="true" attachment-path="Document_Document">
+            <fieldset class="content-group">
+                <legend class="text-bold"> بخش اضافه نمودن نتایح نمرات صنف</legend>
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["کتگوری"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxschooltypeid" name="uxSchoolTypeId" class="select" asp-items="@Model.ListOfSchoolTypes" required child="uxstudentschoolid">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نام مکتب"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxstudentschoolid" name="uxStudentSchoolID" class="select" data-type="SchoolType" required>
+                                <option ></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["صنف مربوطه"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxclasstypeid" name="uxClassTypeID" class="select" asp-items="@Model.ListOfClassTypes">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["کتگوری صنف"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxclassmanagementid" name="uxClassManagementID" class="select" asp-items="@Model.ListOfClassManagementTypes">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>ثبت معلومات</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-new-tab position-right"></i>جستجو</button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-right"></i>صفحه جدید </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Id">شماره</th>
+                            <th colname="SchoolTypeName"> نوع تعلیمات</th>
+                            <th colname="StudentSchoolName">نام مکتب</th>
+                            <th colname="ClassTypeName">نوع صنف</th>
+                            <th colname="ClassManagementName">نوع کتگوری صیف</th>
+                            <th colname="DocumentName"> شوقه ضمیمه شده</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+

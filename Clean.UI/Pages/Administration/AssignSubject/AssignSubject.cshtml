@@ -1,0 +1,82 @@
+﻿@page "{handler?}"
+@model Clean.UI.Pages.Administration.AssignSubject.AssignSubjectModel
+@{
+    ViewData["Title"] = "AssignSubject";
+}
+
+    <div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+<div class="panel-heading">
+    <h1 class="panel-title">مشخصات مضامین تقسیم شده</h1>
+</div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Administration_AssignSubject_AssignSubject" class="form main-form page-component" type="form" prefix="uxs">
+            <fieldset class="content-group">
+                <legend class="text-bold">مشخصات مضامین تقسیم شده را جستجو کنید</legend>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        سال تعلیمی
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxsyearid" name="uxsYearId" class="select search" asp-items="@Model.ListOfYears" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        صنف
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxsclasstypeid" name="uxsClassTypeID" class="select search" asp-items="@Model.ListOfClassTypes" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        گروپ
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxsclassmanagementid" name="uxsClassManagementId" class="select search" asp-items="@Model.ListOfClassManagements" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>جستجو</button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>صفحه جدید</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="TeacherName">نام استاد</th>
+                            <th colname="YearName">سال تعلیمی</th>
+                            <th colname="ClassManagementName">صنف</th>
+                            <th colname="ClassTypeName">گروپ</th>
+                            <th colname="SubjectManagementName">مضمون</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>

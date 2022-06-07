@@ -1,0 +1,855 @@
+﻿
+
+@page
+@model Clean.UI.Pages.Student.Certificate.Prints.IndexModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ResultSheet</title>
+    <link href="~/assets/css/print.css" rel="stylesheet" />
+    <link href="~/assets/css/page.css" rel="stylesheet" />
+    <style>
+        .signholder {
+            border: 2px solid #808080;
+            margin-top: 100px;
+            height: 0px;
+            width: 300px;
+            margin: 0px 0px;
+            margin-top: -10px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+
+        @@media print {
+            /*body {
+                margin: 0 auto;
+                padding: 0;
+                background: #fff;
+            }*/
+            .rtl .div-form {
+                float: none !important;
+                right: auto !important;
+                left: auto !important;
+                position: relative;
+                top: auto !important;
+                width: 100%;
+                margin: 0;
+                box-shadow: none !important;
+            }
+
+            #FirstTable {
+                position: relative;
+                margin-right: 10px;
+                margin-top: -20px;
+            }
+
+            .table {
+                border-spacing: 0;
+                border-collapse: collapse;
+                width: 99%;
+                margin-top: 10px;
+                top: -21px;
+            }
+
+            #secondcopy {
+                position: relative;
+                padding-top: -5px;
+                margin: auto;
+                bottom: -22px;
+                top: -89px;
+            }
+
+
+            #thirdcopy {
+                position: relative;
+                margin: auto;
+                padding-bottom: 10px;
+                top: -159px;
+            }
+
+            hr {
+                display: none;
+            }
+        }
+
+        .div-row, .div-row label {
+            font-size: 16px;
+        }
+
+            .div-row label {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+        .form-title {
+            border-width: 2px;
+            font-size: 11px;
+            padding-bottom: 15px;
+            color: #222;
+            border-bottom: 3px solid #222;
+            margin-right: 10px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        .col-50 {
+            width: 49% !important;
+            float: right;
+        }
+
+        .border-right {
+            border-right: 1px solid #eee;
+        }
+
+        margin-right-2 {
+            margin-right: 2px;
+        }
+
+        .div-row .eng {
+            width: 49% !important;
+            min-width: 0px;
+            font-size: 14px !important;
+            font-family: sans-serif;
+            float: left !important;
+            direction: ltr;
+        }
+
+        .eng label, .eng label {
+            float: left !important;
+            direction: ltr;
+            width: auto !important;
+        }
+
+        .div-photo {
+            margin-top: 10px;
+        }
+
+        .div-photo {
+            background: #fff;
+            box-shadow: none;
+        }
+
+        .div-mainform .title {
+            border-bottom: none !important;
+        }
+
+            .div-mainform .title .div-logo img {
+                height: 130px;
+                width: auto;
+            }
+
+            .div-mainform .title .div-logo {
+                left: 45px;
+                position: absolute;
+            }
+
+        .pull-right {
+            float: right;
+        }
+
+        .div-mainform .title .div-bottom .div-truck div span {
+            font-size: 12px;
+        }
+
+        h1 {
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #000;
+            align-content: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: #000;
+        }
+
+        .div-logo-right {
+            position: absolute;
+            right: 45px;
+        }
+
+        .div-logo {
+            top: 20px;
+        }
+
+        .div-logo-right {
+            position: absolute;
+            left: 45px;
+        }
+
+        .title {
+            height: 150px !important;
+            position: relative;
+        }
+
+            .title .div-text {
+                width: 50%;
+                position: relative;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+
+        .div-queue {
+            height: 80px;
+            position: absolute;
+            width: 30%;
+            top: 150px;
+            right: 34%;
+        }
+
+        .col-25 {
+            width: 25%;
+            float: right;
+        }
+
+        .col-30 {
+            width: 30%;
+            float: right;
+        }
+
+        .col-40 {
+            width: 40%;
+            float: right;
+        }
+
+        .col-20 {
+            width: 20%;
+            float: right;
+        }
+
+        .col-100 {
+            width: 100%;
+            float: right;
+        }
+
+        .col-80 {
+            width: 80%;
+            float: right;
+        }
+
+        .top-10 {
+            margin-top: 10px;
+        }
+
+        .section-title {
+            margin-top: 5px;
+            border-top: 3px solid #777;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #777;
+            font-size: 11px;
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+            position: relative;
+            top: -21px;
+        }
+
+        .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align: top;
+            border-top: 1px solid #222
+        }
+
+        .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+            vertical-align: middle;
+        }
+
+        .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+            border: 1px solid #ddd;
+            border-top-color: rgb(221, 221, 221);
+            border-top-style: solid;
+            border-top-width: 1px;
+        }
+
+        td, th {
+            font-size: 12px !important;
+            padding: 5px;
+        }
+
+        body {
+            background: #737373;
+        }
+
+        .table > tbody {
+        }
+
+        #no_imagepath {
+            width: 100%;
+            height: 124px;
+            position: relative;
+            top: 186px;
+            z-index: 1;
+            left: 4px;
+        }
+
+
+
+        #Certasasnumber {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+
+
+        #UserPhoto {
+            position: absolute;
+            top: 44px;
+        }
+
+        .div-form {
+            background: #fff none repeat scroll 0 0;
+            border: 0 solid #aaa;
+            border-radius: 1px;
+            box-shadow: 0 0 2px #555;
+            display: block;
+            max-width: 1100px;
+            min-width: 210mm;
+            position: relative;
+            width: 291mm;
+            height: 44rem;
+            min-height: 42rem;
+        }
+
+        #UserPhoto img {
+            width: 135px;
+            height: 153px;
+            position: absolute;
+            float: left;
+            left: -66rem;
+            top: 0;
+        }
+        #certtitle {
+            position: relative;
+            top: 173px;
+            direction: rtl;
+            right: 72px;
+            text-align: center;
+            line-height: 12px
+        }
+
+        #aflogo {
+            position: absolute;
+            top: 69px;
+            width: 10rem;
+            left: 30rem;
+        }
+
+        #pashtocertlabel {
+            display: inline-table;
+            position: relative;
+            right: 40px;
+            top: 106px;
+            width: 19rem;
+            min-width: 19rem;
+            border-left: 1px solid;
+            box-sizing: border-box;
+            vertical-align: middle;
+            text-align: justify;
+            word-wrap: break-word;
+        }
+
+            #pashtocertlabel label {
+                font-size: 13px;
+                font-weight: bold;
+                line-height: 37px;
+                text-align: center;
+                word-break: break-word;
+            }
+
+        #Englabel {
+            position: relative;
+            top: 119px;
+            direction: rtl;
+            display: inline-flex;
+            flex-direction: row-reverse;
+            text-align: left;
+            left: 10px;
+            width: 22rem;
+            min-width: 22rem;
+            left: 0;
+            right: 1rem;
+            max-height: 16rem;
+            height: 16rem;
+            text-align: left;
+            box-sizing: border-box;
+        }
+
+        #Farsilabel {
+            position: relative;
+            top: 92px;
+            width: 21rem;
+            min-width: 21rem;
+            text-align: justify;
+            word-break: break-word;
+            vertical-align: middle;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+
+            #Farsilabel label {
+                font-size: 13px;
+                line-height: 37px;
+            }
+
+        #Englabel label {
+            font-size: 13px;
+            line-height: 26px
+        }
+
+        #Certlabelrow {
+            position: relative;
+            top: 76px;
+        }
+
+        #CertSignature {
+            position: absolute;
+            bottom: 0;
+            top: 11rem;
+            ;
+        }
+
+        #certsignatur3 {
+            position: absolute;
+            left: 0;
+            float: left;
+            display: inline-block;
+            right: 53rem;
+            text-align: center;
+            width: 21rem;
+        }
+
+        #certsignatur2 {
+            position: absolute;
+            align-content: center;
+            right: 29rem;
+            width: 20rem;
+            text-align: center;
+        }
+
+        #certsignatur1 {
+            position: absolute;
+            right: 0;
+            width: 20rem;
+            text-align: center;
+            font-size: 23px;
+        }
+
+        #form\ certbackMarks {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            position: relative;
+            height: 56rem;
+        }
+
+        #mareflogo {
+            position: absolute;
+            top: 42px;
+            left: 28px;
+        }
+
+            #mareflogo img {
+                width: 46%;
+            }
+
+        #trancriptlabels {
+            position: absolute;
+            text-align: center;
+            left: 17rem;
+            top: 4rem;
+        }
+
+        #Trancscriptafglog {
+            position: relative;
+            top: 42px;
+            left: 43rem;
+            right: 0;
+        }
+
+            #Trancscriptafglog img {
+                width: 13%;
+            }
+
+        #TranscritProfile {
+            position: absolute;
+            top: 13rem;
+            left: 174px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        #TranscriptMarks {
+            position: relative;
+            top: 10rem;
+            width: 91%;
+            left: 32px;
+        }
+
+        #TranscriptSign {
+            position: relative;
+            bottom: 0;
+            top: 13rem;
+        }
+
+            #TranscriptSign th img {
+                width: 100%;
+                height: -2%;
+                height: 51px
+            }
+
+        #firstnamedari {
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px solid;
+            padding-left: 5em;
+            margin-right: 0em;
+            padding-right: 2em;
+        }
+
+        #asasno {
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px solid;
+            padding-left: 7em;
+            margin-right: 0em;
+            padding-right: 3em;
+        }
+        .container{
+            border: 5px solid;
+            height:43.5rem;
+        }
+    </style>
+    <script src="~/assets/js/core/libraries/jquery.min.js"></script>
+    <script src="~/assets/js/plugins/barcode/JsBarcode.all.js"></script>
+</head>
+<body style="direction:ltr;">
+    <div id="form" class="div-mainform div-form" style="margin-right:auto; margin-left:auto;">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="row" id="CertLabels">
+                    <table>
+                        <tr>
+                            <th align="right" valign="top" id="Certasasnumber">
+                                <br /><br />
+                                <h4>
+                                    داساس شمیره: <span id="asasno">@Model.StudentAssassNumber</span>
+
+                                </h4>
+                                <h4>نیته: ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ</h4>
+                                <br />
+                            </th>
+                            <th>
+                                <img src="~/assets/img/AfgLogo.png" id="aflogo" />
+                            </th>
+                            <th align="left" width="30%" valign="top" id="UserPhoto">
+                                    <div id="apPhoto">
+                                        <img src="@Model.ProfilePhoto" class="croppedImg" width="123" id="no_imagepath">
+                                    </div>
+                               
+                                <br />
+                            </th>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <table id="certtitle">
+                    <thead>
+                        <tr>
+
+                            <td id="uxpashtolabel">
+                                <h3>
+                                    داقغانستان اسلامی جمهوریت
+                                </h3>
+                                <br />
+                                <h3>
+                                    د پوهنی وزارت
+                                </h3>
+                                <br />
+                                <h3>
+                                    د عمومی زدهکرو معینیت
+                                </h3>
+                                <br />
+                                <h3>
+                                    د نتایج او شهادتنامو ریاست
+                                </h3>
+                                <br />
+                                <h3>
+                                    د ثانوی زده کرو بری لیک
+                                </h3>
+                            </td>
+
+                            <td id="uxdarilabel">
+                                <h3>
+                                    حمهوری اسلامی افغانستان
+                                </h3>
+                                <br />
+                                <h3>
+                                    وزارت معارف
+                                </h3>
+                                <br />
+                                <h3>
+                                    معینیت تعلیمات عمومی
+                                </h3>
+                                <br />
+                                <h3>
+                                    ریاست نتایج و شهادتنامه ها
+                                </h3>
+                                <br />
+                                <h3>
+                                    شهادتنامه دوره ثانوی
+                                </h3>
+                            </td>
+                            <td id="uxenglishlabel">
+                                <h3>
+                                    Islamic Repbulic of Afghanistan
+                                </h3>
+                                <br />
+                                <h3>
+                                    Ministry of Education
+                                </h3>
+                                <br />
+                                <h3>
+                                    Deputy Ministry of General Education
+                                </h3>
+                                <br />
+                                <h3>
+                                    Directorate of Results and Certificates
+                                </h3>
+                                <br />
+                                <h3>
+                                    12th Grade Graduation
+                                </h3>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+
+            <table id="mianlabels" dir="rtl">
+                <thead>
+
+                    <tr id="Certlabelrow">
+                        <td id="pashtocertlabel">
+                            <label>
+                                ساغلی/ آغلی <span id="firstnamedari">@Model.FirstName</span> د<span id="firstnamedari">@Model.FatherName</span>  زوی/ لور چی په <span id="firstnamedari">@Model.YearOfBirth</span> کال د  <span id="firstnamedari">@Model.BirthLocationName</span> په ولایت کی زیزیدلی
+                                او خپلی ثانوی رده کری یی په <span id="firstnamedari">@Model.YearOfBirth</span> کال کی د <span id="firstnamedari">@Model.StudentSchool</span> په لیسه کی په  <span id="firstnamedari">@Model.YearOfBirth</span> درجه بشپر کری دی دا بری لیک شو چی له حقوقو سخه یی گته واخلی .
+
+                            </label>
+                        </td>
+                        <td id="Farsilabel">
+                            <label>
+                                محترم / محترمه <span id="firstnamedari">@Model.FirstName</span> فرزند / بنت <span id="firstnamedari">@Model.FatherName</span> که در سال <span id="firstnamedari">@Model.YearOfBirth</span>
+                                در ولایت <span id="firstnamedari">@Model.BirthLocationName</span> تولد شده تعلمیمات ثانوی خویش را در سال <span id="firstnamedari">@Model.YearOfBirth</span> در لیسه
+                                <span id="firstnamedari">@Model.StudentSchool</span> به درجه <span id="firstnamedari">@Model.YearOfBirth</span> تکمیل نموده و مستحق این شهادت نامه شناخته شده تا از حقوق آن استقاده نماید.
+
+                            </label>
+
+                        </td>
+                        <td id="Englabel">
+                            <label>
+                                Mr/Ms <span id="firstnamedari">@Model.FirstNameEng</span> Son/Doughter of <span id="firstnamedari">@Model.FatherNameEng</span> was born in the year <span id="firstnamedari">@Model.YearOfBirth</span> in <span id="firstnamedari">@Model.BirthLocationName</span>
+                                Province "Has graduated from grade 12th" of <span id="firstnamedari">@Model.StudentSchool</span> high school in <span id="firstnamedari">@Model.YearOfBirth</span> obtaining <span id="firstnamedari">@Model.YearOfBirth</span>
+                                This certificate has been granted to him/ her and entitled all of the rights and privilegs pertaining hereto.
+                            </label>
+                            <br />
+
+                            <hr />
+                        </td>
+                    </tr>
+                </thead>
+
+            </table>
+
+
+            <table dir="rtl">
+
+                <thead>
+                    <tr id="CertSignature">
+
+                        <td id="certsignatur1">
+                            <label>
+                                د لیسی مدیر
+                            </label>
+                            <br />
+                            <label>
+                                High School Principal
+                            </label>
+                        </td>
+                        <td id="certsignatur2">
+                            <label>
+                                ریس نتایج و شهادتنامه ها
+                            </label>
+                            <br />
+                            <label>
+                                Director of Results and Certificates
+                            </label>
+                        </td>
+                        <td id="certsignatur3">
+                            <label>
+                                د پوهنی وزیر
+                            </label>
+                            <br />
+                            <label>
+                                Minister Of Education
+                            </label>
+                        </td>
+                    </tr>
+
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <div id="form certbackMarks" class="div-mainform div-form">
+        <input type="hidden" value="@Model.Code" id="code_print" />
+        <table>
+            <thead>
+                <tr>
+                    <td id="mareflogo">
+                        <img src="~/assets/img/moe.png" />
+                    </td>
+                    <td id="trancriptlabels">
+                        <h3>
+                            Islamic Republic of Afghanistan
+                        </h3>
+                        <br />
+                        <h3>Ministry Of Education</h3>
+                        <br />
+                        <h3>Secondry School Transcript</h3>
+                    </td>
+                    <td id="Trancscriptafglog">
+                        <img src="~/assets/img/AfgLogo.png" />
+                    </td>
+                </tr>
+
+                <tr id="TranscritProfile">
+                    <td>
+                        <label>School Name:<span id="firstnamedari">@Model.SchoolNameEng</span> High School</label>
+                        <br />
+                        <label>Name: <span id="firstnamedari">@Model.FirstNameEng</span> </label>
+                        <label>Father Name: <span id="firstnamedari">@Model.FatherNameEng</span></label>
+
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <table id="TranscriptMarks" width="100%" class="table-bordered" dir="ltr">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Subject</th>
+                    <th>Class10</th>
+                    <th>Class11</th>
+                    <th>Class12</th>
+                    <th>Total</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+
+               @foreach (var subject in Model.SubjectResults)
+                            {
+               <tr style="align-content:center">
+                   
+                <td>
+                   @Model.subjectnumber
+                </td> 
+                <td>
+                    @subject.Subject
+                </td>
+                   <td id="10thmarks"  style="text-align:center">@subject.class10thmarks</td>
+                   <td id="11thmarks"  style="text-align:center">@subject.clas11thmarks</td>
+                <td id="12thmarks" style="text-align:center">@subject.class12thmarks</td>
+                <td  style="text-align:center">@(@subject.class10thmarks + @subject.clas11thmarks + subject.class12thmarks)</td>
+                   <td></td>
+                @*<td>@subject.FinalMark</td>
+                <td>@(@subject.MidMark + @subject.FinalMark)</td>*@
+            </tr>
+                            }
+
+                <tr>
+                    <td></td>
+                    <td>Total</td>
+                    <td style="text-align:center"> @Model.total10thmark</td>
+                    <td  style="text-align:center">@Model.total11thmark</td>
+                    <td  style="text-align:center">@Model.total12thmark</td>
+                    <td  style="text-align:center">@Model.GrandTotalMarks</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Percentage of Three Years</td>
+                    <td colspan="5" style="text-align:center">@Model.Average</td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="TranscriptSign">
+
+            <thead>
+
+                <tr>
+                    <th>
+                        <h3>School Principal</h3>
+                    </th>
+                    <th class="img-barcode" align="center">
+                        <svg id="barcode1"></svg>
+                    </th>
+                    <th>
+                        <h3>
+                            Provincail Education Director
+                        </h3>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var Code = $('#code_print').val();
+            var MOE = "MOE-SMIS";
+            JsBarcode("#barcode1", `${MOE}${Code}`);
+        });
+
+    </script>
+</body>
+</html>

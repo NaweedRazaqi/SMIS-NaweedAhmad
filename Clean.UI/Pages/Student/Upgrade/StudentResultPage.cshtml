@@ -1,0 +1,94 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Student.Upgrade.StudentResultPageModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "Student Result";
+}
+
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer["شهرت شاگردان"]</h1>
+    </div>
+
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Student_Upgrade_StudentResultPage" class="form main-form page-component" type="form" prefix="ux">
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["مشخصات شخص را وارد کنید"] </legend>
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["صنف"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxclasstypeid" name="uxClassTypeId" class="select search" asp-items="@Model.ListOfClassTypes" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["کتگوری صنف"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxclassmanagementid" name="uxClassManagementId" class="select search" asp-items="@Model.ListOfClassManagementTypes" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["نتیجه"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxresultid" name="uxResultId" class="select search" asp-items="@Model.ListOfResults" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary pull-right" id="uxSave"><i class="icon-floppy-disk position-right" ></i>@_localizer["ارتقاع دادن"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+
+                    
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table style="direction: rtl;" bindonclick="true">
+                    <thead>
+                        <tr>
+                             
+                            <th colname="StudentName" id="profile">@_localizer["نام "]</th>
+                            <th colname="FatherName" id="profile">@_localizer["نام پدر "]</th>
+                            <th colname="ClassTypeText">@_localizer["صنف"]</th>
+                            <th colname="ClassManagementText">@_localizer["کتگوری"]</th>
+                            <th colname="Total">@_localizer["مجموعه نمرات"]</th>
+                            <th colname="ResultText">@_localizer["نتیجه"]</th>
+                        </tr>
+                    </thead>
+                    <tbody id="uxStudentDetails"></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+</div>
+

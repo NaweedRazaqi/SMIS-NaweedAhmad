@@ -1,0 +1,161 @@
+﻿@page
+@model Clean.UI.IndexModel
+@{
+    Layout = null;
+    bool IsRtl = true;
+}
+
+<!DOCTYPE html>
+<html dir="@(IsRtl ? "rtl" : "ltr")">
+<head>
+
+
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px 0;
+                position: absolute;
+                z-index: 1;
+                bottom: 150%;
+                left: 50%;
+                margin-left: -60px;
+            }
+
+                .tooltip .tooltiptext::after {
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    margin-left: -5px;
+                    border-width: 5px;
+                    border-style: solid;
+                    border-color: black transparent transparent transparent;
+                }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+            }
+
+        .dropdown-toggle {
+            height: 50px;
+        }
+    </style>
+
+
+    <meta name="viewport" content="width=device-width" />
+    <link rel="apple-touch-icon" sizes="57x57" href="~/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>@Clean.Common.AppConfig.ApplicationTitle</title>
+    @* Template css references *@
+    <link href="~/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    @if (IsRtl)
+    {
+        <link href="~/assets/css/minified/bootstrap.min.rtl.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/core.min.rtl.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/components.min.rtl.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/bootstrap_limitless.min.css" rel="stylesheet" />
+        <link href="~/assets/css/minified/components.min.css" rel="stylesheet" />
+
+    }
+    else
+    {
+        <link href="~/assets/css/minified/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/core.min.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/components.min.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
+        <link href="~/assets/css/minified/bootstrap_limitless.min.css" rel="stylesheet" />
+        <link href="~/assets/css/minified/components.min.css" rel="stylesheet" />
+
+    }
+    @* CSS for the persian datepicker *@
+    <link href="~/custom/css/jquery.md.bootstrap.datetimepicker.style.css" rel="stylesheet" />
+
+
+    @* Overriden other classes*@
+    <link href="~/custom/css/overridenclasses.css" rel="stylesheet" />
+    <link href="~/custom/css/hrmis.css" rel="stylesheet" />
+</head>
+<body class="rtl" dir="rtl">
+    <!-- Main navbar -->
+    <div class="navbar" style="background: #fff; box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5); color: #444;">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index">
+                <img src="@Clean.Common.AppConfig.ApplicationLogo" />
+                <span>
+                    @Clean.Common.AppConfig.ApplicationTitle
+                </span>
+            </a>
+            <ul class="nav navbar-nav visible-xs-block">
+                <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+                <li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+            </ul>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <partial name="_LanguagePartial" />
+            <partial name="_LoginPartial" />
+        </ul>
+       
+    </div>
+
+    <div class="page-container">
+        <!-- Page content -->
+        <div class="page-content">
+            <div class="content-wrapper">
+                <!-- Content area -->
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 dash" >
+                            <div class="col-md-12">
+                                @Html.Raw(@Model.HTML)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <environment include="Development,Production">
+        <script type="text/javascript" src="~/assets/js/plugins/loaders/pace.min.js"></script>
+        <script type="text/javascript" src="~/assets/js/core/libraries/jquery.min.js"></script>
+        <script type="text/javascript" src="~/assets/js/core/libraries/bootstrap.min.js"></script>
+        @* javascript libraries for echarts  *@
+
+        <script src="~/assets/js/jscharts/echarts.min.js"></script>
+    </environment>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    EchartsColumnsWaterfalls.init();
+});
+
+    </script>
+</body>
+</html>
+

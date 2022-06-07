@@ -1,0 +1,455 @@
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.exe
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.deps.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.runtimeconfig.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.runtimeconfig.dev.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.Views.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.Views.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Application.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Common.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Application.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csprojAssemblyReference.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.AssemblyInfoInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.AssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csproj.CoreCompileInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorAssemblyInfo.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorAssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.TagHelpers.input.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.TagHelpers.output.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorCoreGenerate.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Document\Document.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Document\Process.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\AccessDenied.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\ChangePassword.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\InitialPasswordChange.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Login.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Logout.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\ModuleActivation.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Register.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Roles.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\RoleScreens.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Shared\_SecuritySharedLayout.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\UserRoles.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Country\Country.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Country\District.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Country\Province.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Occupation.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Office.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Organization.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LanguagePartial.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_MasterLayout.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\AssignSubject\AssignSubject.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\Profile.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\StudentClass.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Result\PrimarySecondaryResult.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Result\StudentClass.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\StudentClassResultSheet\StudentClassResultSheet.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\SubjectAssignment\SubjectAssignment.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Subjects\StudentsSubject.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Subject\Subject.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Teacher\Teacher.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorTargetAssemblyInfo.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorTargetAssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Views.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csproj.CopyComplete
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\staticwebassets\Clean.UI.StaticWebAssets.Manifest.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\staticwebassets\Clean.UI.StaticWebAssets.xml
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.genruntimeconfig.cache
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.exe
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.deps.json
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.runtimeconfig.json
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.runtimeconfig.dev.json
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\en-US\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\prs-AF\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ps-AF\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\AF\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.Views.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.UI.Views.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Localization.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\PdfSharp.Charting.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\PdfSharp.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\PdfSharp.Charting.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\de\PdfSharp.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Application.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Domain.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Persistence.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Application.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Common.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Persistence.dll
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Application.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Persistence.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Application.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Common.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Persistence.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\App.Domain.pdb
+D:\SMIS\SMIS-Project\Clean.UI\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csprojAssemblyReference.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.Profile.en-US.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.Profile.prs-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.Profile.ps-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentHealthStatus.en-US.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentHealthStatus.prs-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentHealthStatus.ps-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentParentDetails.en-US.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentParentDetails.prs-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentParentDetails.ps-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentProfileAttachments.en-US.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentProfileAttachments.prs-AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Resources.Pages.Student.Profile.StudentProfileAttachments.ps.AF.resources
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csproj.GenerateResource.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.AssemblyInfoInputs.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.AssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csproj.CoreCompileInputs.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.MvcApplicationPartsAssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.MvcApplicationPartsAssemblyInfo.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorAssemblyInfo.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorAssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\en-US\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\prs-AF\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\ps-AF\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\AF\Clean.UI.resources.dll
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\staticwebassets\Clean.UI.StaticWebAssets.Manifest.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\staticwebassets\Clean.UI.StaticWebAssets.xml
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\scopedcss\bundle\Clean.UI.styles.css
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.TagHelpers.input.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.TagHelpers.output.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorCoreGenerate.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Administration\AssignSubject\AssignSubject.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Administration\SubjectAssignment\SubjectAssignment.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Administration\Subject\ClassSubjectAssignment.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Administration\Subject\Subject.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Document\Document.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Document\Process.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\AccessDenied.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\ChangePassword.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\InitialPasswordChange.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Login.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Logout.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\ModuleActivation.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Owner\AssignUserOwner.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Owner\RegisterOwner.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Register.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Roles.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\RoleScreens.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Shared\_SecuritySharedLayout.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Security\UserRoles.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Country\Country.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Country\District.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Country\Province.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Occupation.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Settings\Office.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LanguagePartial.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_MasterLayout.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Certificate\Prints\Index.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Certificate\StudentSchoolCertificate.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\Profile.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\Sawaneh\Prints\Index.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\Sawaneh\SawanehSearch.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\StudentHealthStatus.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\StudentParentDetails.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Profile\StudentProfileAttachments.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Registeration\Attachment.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Registeration\RegisterStudents.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Registeration\StudentRegistration.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Rellocation\Prints\Index.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Rellocation\Rellocation.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Rellocation\RellocationSubPage.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\ResultSheet\Prints\Index.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\ResultSheet\ResultSheet.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\ScheduleExam\ScheduleExam.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Subjects\StudentsSubject.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Termination\StudentTermination.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Termination\StudentTerminationSub.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Termination\TerminationAttachment.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Upgrade\StudentClass.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\Upgrade\StudentResultPage.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Student\UploadClassResultSheet\UploadClassResultSheet.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Teacher\Profile\Profile.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorTargetAssemblyInfo.cache
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.RazorTargetAssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.Views.pdb
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.csproj.CopyComplete
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.dll
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.pdb
+D:\SMIS\SMIS-Project\Clean.UI\obj\Debug\netcoreapp3.1\Clean.UI.genruntimeconfig.cache

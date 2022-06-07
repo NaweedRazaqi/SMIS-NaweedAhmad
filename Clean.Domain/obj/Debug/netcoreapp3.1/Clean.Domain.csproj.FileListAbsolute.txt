@@ -1,0 +1,18 @@
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+C:\Users\Naweed Ahmad\Desktop\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\SMIS\SMIS-Project\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.deps.json
+D:\SMIS\SMIS-Project\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\SMIS\SMIS-Project\Clean.Domain\bin\Debug\netcoreapp3.1\Clean.Domain.pdb
+D:\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csprojAssemblyReference.cache
+D:\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfoInputs.cache
+D:\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.AssemblyInfo.cs
+D:\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.csproj.CoreCompileInputs.cache
+D:\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.dll
+D:\SMIS\SMIS-Project\Clean.Domain\obj\Debug\netcoreapp3.1\Clean.Domain.pdb

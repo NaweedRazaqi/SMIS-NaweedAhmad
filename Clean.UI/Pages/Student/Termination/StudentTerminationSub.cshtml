@@ -1,0 +1,120 @@
+﻿
+@page "{handler?}/{id?}"
+@model Clean.UI.Pages.Student.Profile.StudentTerminationModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    Layout = null;
+}
+
+<div class="panel panel-flat" style="direction: rtl;">
+    <div class="panel-heading">
+        <h1 class="panel-title">منفک شدن</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+
+        <form id="dv_Student_Termination_StudentTerminationSub" class="form sub-form page-component" type="form" prefix="uxs" parent="dv_Student_Termination_StudentTermination" parentcol="ProfileID">
+            <fieldset class="content-group">
+                <legend class="text-bold">لطفاً معلومات منفکی شاګرد را وارد کنید</legend>
+                <input type="hidden" id="uxspageid" value="@Model.ScreenIDEcyption" />
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["تاریخ منفکی"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label><div class="input-group">
+                                <span class="input-group-addon"><i class="icon-calendar3"></i></span>
+                                <input type="text" id="uxsterminationdateshmsi" sibling="uxsterminationdate" name="uxsTerminationDateShmsi" class="form-control Shamsi" placeholder="@_localizer["تاریخ منفکی"]" required />
+                                <input type="hidden" id="uxsterminationdate" sibling="uxsterminationdateshmsi" name="uxsTerminationDate" class="form-control Miladi" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <label class="text-bold">
+                                @_localizer["نمبر مکتوب"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsdocumentno" name="uxsDocumentNo" type="text" class="form-control search" required />
+                            <div class="form-control-feedback">
+                                <i class="icon-search4 text-size-base"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["نوع سند"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsdocumenttypeid" name="uxsDocumentTypeId" asp-items="@Model.ListOfDocumentTypes" class="select" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["صنف متعلم "]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <select id="uxsclasstypeid" name="uxsClassTypeId" asp-items="@Model.ListOfClassTypes" class="select" required>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["جریمه"]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <input id="uxsfine" name="uxsFine" type="text" class="form-control" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 ">
+                        <div class="form-group">
+                            <label class="text-bold">
+                                @_localizer["دلیل منفکی "]
+                                <span class="text-danger">&nbsp;*</span>
+                            </label>
+                            <textarea id="uxsreasons" name="uxsReasons" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>@_localizer["ثبت معلومات"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid">
+                <table style="direction: rtl;" bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="TerminationDateShamsi">تاریخ منفکی</th>
+                            <th colname="DocumentNo">نمبر مکتوب </th>
+                            <th colname="Fine">جریمه</th>
+                            <th colname="Reasons">دلیل منفکی</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+

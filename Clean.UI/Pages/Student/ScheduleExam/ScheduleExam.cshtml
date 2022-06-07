@@ -1,0 +1,155 @@
+﻿
+@page "{handler?}"
+@model Clean.UI.Pages.Student.ScheduleExam.ScheduleExamModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer _localizer
+@{
+    ViewData["Title"] = "ExamSchedule";
+}
+
+<div class="panel panel-flat">
+    @Html.AntiForgeryToken()
+    <div class="panel-heading">
+        <h1 class="panel-title">@_localizer["تنظیم اوقات امتحان"]</h1>
+    </div>
+    <div class="panel-body" style="padding-bottom:5px;">
+        <form id="dv_Student_ScheduleExam_ScheduleExam" class="form main-form page-component" type="form" prefix="ux">
+            <fieldset class="content-group">
+                <legend class="text-bold">@_localizer["مشخصات شخص را وارد کنید"] </legend>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["نوع تعلیمات"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxschooltypeid" name="uxSchoolTypeId" class="select search" asp-items="@Model.ListOfSchoolTypes" child="uxsubjectid" >
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12" id="uxquranchapterdiv">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["مضمون"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxsubjectid" name="uxSubjectId" class="select search"  data-type="SubjectType" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["نام امتحان"]
+                                    </label>
+                                    <input id="uxexmname" name="uxExmName" type="text" class="form-control search" />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12" id="uxquranchapterdiv">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["صنف"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxclasstypeid" name="uxClassTypeId" class="select" asp-items="@Model.ListOfClassTypes" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group">
+                                    <label class="text-bold">
+                                        @_localizer["کتگوری صنف"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <select id="uxclassmanagementid" name="uxClassManagementId" class="select" asp-items="@Model.ListOfClassManagementTypes" required>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <label class="text-bold">
+                                    @_localizer["تاریخ امتحان"]
+                                    <span class="text-danger">&nbsp;*</span>
+                                </label>
+                                <div class="form-group">
+                                    <input type="text" id="uxexamdateshamsi" sibling="uxexamdate" name="uxExamDateShamsi" class="form-control Shamsi" />
+                                    <input type="hidden" id="uxexamdate" sibling="uxexamdateshamsi" name="uxExamDate" class="form-control Miladi" />
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["شروع امتحان"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxexamtimestart" name="uxExamTimeStart" type="text" class="form-control search" required placeholder="hh:min" />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12 ">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <label class="text-bold">
+                                        @_localizer["ختم امتحان"]
+                                        <span class="text-danger">&nbsp;*</span>
+                                    </label>
+                                    <input id="uxexamtimeend" name="uxExamTimeEnd" type="text" class="form-control search" required placeholder="hh:min" />
+                                    <div class="form-control-feedback">
+                                        <i class="icon-search4 text-size-base"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </fieldset>
+            <hr />
+            <div class="row div-form-control main-form-details">
+                <div class="col-md-12">
+                    <div class="form-group actions">
+                        <button type="button" class="btn btn-primary" action="save"><i class="icon-floppy-disk position-left"></i>@_localizer["ثبت معلومات"]</button>
+                        <button type="button" class="btn btn-primary" action="search"><i class="icon-search4 position-left"></i>@_localizer["جستجو"] </button>
+                        <button type="button" class="btn btn-primary" action="new"><i class="icon-new-tab position-left"></i>@_localizer["صفحه جدید"]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-grid main-form-details">
+                <table bindonclick="true">
+                    <thead>
+                        <tr>
+                            <th colname="Id">@_localizer["کود"]</th>
+                            <th colname="ExmName">@_localizer["نام امتحان"]</th>
+                            <th colname="SchoolTypeText">@_localizer["نوع تعلیمات"]</th>
+                            <th colname="SubjectText">@_localizer["نام مضمون"]</th>
+                            <th colname="ClasstypeText">@_localizer["صنف"]</th>
+                            <th colname="ClassmanagementText">@_localizer["کتگوری صنف"]</th>
+                            <th colname="ExamTimeStart">@_localizer["شروع امتحان"]</th>
+                            <th colname="ExamTimeEnd">@_localizer["ختم امتحان"]</th>
+                            <th colname="dateShamsi">@_localizer["تاریخ"]</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="page-sidebar page-component" type="actionmenu">
+        <ul class="navigation navigation-accordion">
+            @Html.Raw(@Model.SubScreens)
+        </ul>
+    </div>
+</div>
